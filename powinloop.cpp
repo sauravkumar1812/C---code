@@ -9,7 +9,7 @@ int main(){
     cout<<a<<"^"<<b<<"="<<endl;
     while(b!=0){
         result*=a;
-        --b;
+        b--;
     }
     cout<<result<<endl;
     return 0;
