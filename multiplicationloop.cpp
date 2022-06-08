@@ -1,4 +1,5 @@
-#include<iostream>
+  //multiplication in c++
+  #include<iostream>
 using namespace std;
 int main(){
     int n;
