@@ -1,3 +1,4 @@
+//print multiple time use loop
 #include<iostream>
 using namespace std;
 int main(){

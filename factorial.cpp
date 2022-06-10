@@ -1,3 +1,4 @@
+//factorial a number in loop
 #include<iostream>
 using namespace std;
 int main(){

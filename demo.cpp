@@ -7,7 +7,7 @@ void demo()
 }
 int main()
 {
-    // printf("Hello World");
+   
     cout << "Hello \n";
     demo();
     return 0;
