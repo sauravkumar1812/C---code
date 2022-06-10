@@ -1,3 +1,4 @@
+//demo in for loop
 #include <iostream>
 
 using namespace std;
