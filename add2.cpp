@@ -1,3 +1,4 @@
+//input add in c++
 #include<iostream>
 using namespace std;
 
