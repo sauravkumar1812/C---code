@@ -1,9 +1,7 @@
 #include<iostream>
 using namespace std;
-int main(){
-   int n;
-   cin>>n;
-  for(int i=1;i<=n;i++){
+void func(int n){
+     for(int i=1;i<=n;i++){
     for(int j=1;j<=i;j++){
         cout<<"*";
     }
@@ -27,5 +25,31 @@ int main(){
     }
     cout<<endl;
    }
+}
+int add (int , int );
+int main(){
+   int n;
+   cin>>n;
+   func(n);
+   cout<<endl;
+   func(10);
+
+   cout<<endl;
+   cout<<add(5,10);
+   int result = add(20,25);
+   cout<<endl;
+   cout<<result<<"\n";
+   int a , b;
+   cout<<"input a and b \n";
+   cin>>a>>b;
+   cout<<add(a,b);
+
+
+ 
     return 0;
+}
+
+int add(int a , int b){
+    int sum = a+b;
+    return sum;
 }
