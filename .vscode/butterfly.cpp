@@ -35,21 +35,21 @@ int main(){
    func(10);
 
    cout<<endl;
-//    cout<<add(5,10);
-//    int result = add(20,25);
-//    cout<<endl;
-//    cout<<result<<"\n";
-//    int a , b;
-//    cout<<"input a and b \n";
-//    cin>>a>>b;
-//    cout<<add(a,b);
+   cout<<add(5,10);
+   int result = add(20,25);
+   cout<<endl;
+   cout<<result<<"\n";
+   int a , b;
+   cout<<"input a and b \n";
+   cin>>a>>b;
+   cout<<add(a,b);
 
 
  
     return 0;
 }
 
-// int add(int a , int b){
-//     int sum = a+b;
-//     return sum;
-// }
+int add(int a , int b){
+    int sum = a+b;
+    return sum;
+}
