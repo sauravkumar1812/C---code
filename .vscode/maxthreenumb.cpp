@@ -16,15 +16,15 @@ void max(int a,int b,int c){
         cout<<c;
     }
 }
-void max(){
-    cout<<"Hello";
-}
+// void max(){
+//     cout<<"Hello";
+// }
 int main(){
     int a,b,c;
     cout<<"Enter  three number for check max number :"<<endl;
     cin>>a>>b>>c;
     max(a,b,c);
   
-    max();
+    // max();
     return 0;
 }
