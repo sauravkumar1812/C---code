@@ -20,10 +20,10 @@ int big(int a,int b){
     }
 }
 
-void max(int a,int b){
-if (a>b){
-    cout<<a;
-}
-else{
-    cout<<b;
-}}
+// void max(int a,int b){
+// if (a>b){
+//     cout<<a;
+// }
+// else{
+//     cout<<b;
+// }}
