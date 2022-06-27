@@ -1,3 +1,4 @@
+// print the heart and diamond using ascaii value
 #include<iostream>
 using namespace std;
 int main(){
