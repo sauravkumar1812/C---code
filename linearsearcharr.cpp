@@ -11,11 +11,17 @@ int main(){
         cin>>arr[i];
         
     }
+    bool flag=false;
     for(int i=0;i<n;i++){
         if (key==arr[i]){
-            cout<<"Found"<<arr[i];
+            flag=true;
+            cout<<"Found at index :"<<i;
             break;
         }
+      
+    }
+    if(flag==false){
+        cout<<"Not found!"<<endl;
     }
    
     return 0;
