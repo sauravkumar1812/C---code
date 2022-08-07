@@ -1,3 +1,4 @@
+// replace duplicate in array to -1?
 #include<iostream>
 using namespace std;
 int main(){
