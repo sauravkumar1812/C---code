@@ -1,3 +1,4 @@
+// bubble short in arr
 #include<iostream>
 using namespace std;
 int main(){
