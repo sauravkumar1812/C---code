@@ -11,8 +11,9 @@ for (int j=1;j<n;j++){
    int curr=arr[j];
     int k=j-1;
     while(arr[k]>curr && k>=0){
-        arr[k+1]=arr[k];
-        k--;
+      arr[k+1]=arr[k];
+             k--;
+        
     }
     arr[k+1]=curr;
 }
