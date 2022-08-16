@@ -17,9 +17,7 @@ int main(){
             cout<<"Not palindrome !";
             break;
         }
-        // else{
-        //     cout<<"Palindrome "<<endl;
-        // }
+        
         i++;
         j--;
        }
