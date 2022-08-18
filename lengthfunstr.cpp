@@ -10,7 +10,7 @@ int fun(string str){
 }
 int main(){
 string str;
-    cin>>str;
+    getline(cin,str);
     cout<<str<<endl;
     cout<<fun(str);
     return 0;
