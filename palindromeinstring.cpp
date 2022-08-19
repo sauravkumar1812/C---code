@@ -13,7 +13,7 @@ int main(){
     {
        if(str[i]!=str[j]){
           ispal=false;
-        // cout<<"Not Palindrome!"<<endl;
+        
          break;
        }
        i++;
